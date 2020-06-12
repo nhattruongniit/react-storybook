@@ -9,6 +9,12 @@
 $ npm run storybook
 
 http://localhost:9009/
+
+# run develop
+
+$ npm start
+
+http://localhost:3000/
 ```
 
 ## How add storybook into CRA

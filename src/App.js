@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+function App({ title }) {
   return (
     <div className="App">
       <header className="App-header">
@@ -16,11 +16,15 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React {title}
         </a>
       </header>
     </div>
   );
+}
+
+App.defaultProps = {
+  title: 'test'
 }
 
 export default App;
